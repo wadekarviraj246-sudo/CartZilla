@@ -1,0 +1,267 @@
+/* =========================
+   CARTZILLA NAVBAR
+========================= */
+
+.cartzilla-navbar {
+  height: 105px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cartzilla-logo {
+  font-size: 40px !important;
+  font-weight: 600;
+  color: #071b33 !important;
+  margin-right: 55px;
+}
+
+/* Menu button */
+
+.menu-btn {
+  color: #26384a !important;
+  font-size: 28px;
+  text-decoration: none !important;
+  margin-right: 15px;
+}
+
+/* Categories */
+
+.categories-dropdown {
+  margin-right: 30px;
+}
+
+.categories-btn {
+  width: 250px;
+  height: 60px;
+  border: none !important;
+  border-radius: 35px !important;
+  background-color: #e9eef4 !important;
+  color: #26384a !important;
+  font-size: 18px !important;
+  text-align: left;
+  padding-left: 25px !important;
+}
+
+.categories-btn::after {
+  float: right;
+  margin-top: 8px;
+}
+
+.categories-menu {
+  width: 1000px;
+  padding: 30px !important;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Category columns */
+
+.category-column {
+  width: 25%;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.category-column h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #202733;
+}
+
+.category-column a {
+  display: block;
+  text-decoration: none;
+  color: #465365;
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.category-column a:hover {
+  color: #0d6efd;
+}
+
+/* Search */
+
+.search-box {
+  position: relative;
+  flex: 1;
+  max-width: 430px;
+  margin-right: 30px;
+}
+.search-box input {
+  height: 60px;
+  border-radius: 35px;
+  border: 1px solid #cbd3dd;
+  padding: 0 55px 0 25px;
+  font-size: 18px;
+}
+.search-box button {
+  position: absolute;
+  right: 12px;
+  top: 7px;
+  font-size: 25px;
+  color: #071b33;
+}
+
+/* Delivery */
+.delivery {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+  min-width: 140px;
+}
+.delivery strong {
+  font-size: 17px;
+  color: #111827;
+}
+.delivery span {
+  font-size: 16px;
+  color: #374151;
+}
+
+/* Icons */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 27px;
+  color: #172b40;
+}
+.cart-icon {
+  position: relative;
+}
+.cart-icon b {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 23px;
+  height: 23px;
+  background-color: #ff5364;
+  color: white;
+  border-radius: 50%;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* BreadCrumbs */
+.breadcrumbs_list{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-top: 1.5%;
+    margin-left: 17%;
+}
+.breadcrumbs_list li {
+    position: relative;
+    cursor: pointer;
+}
+.breadcrumbs_list li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.4s ease;
+}
+.breadcrumbs_list li:hover::after {
+    width: 100%;
+}
+.weekly_sales_img{
+    color: red;
+    font-size: larger;
+}
+
+
+/*  eggs */
+.free_ship{
+  font-size: 20px;
+  padding-bottom: 1%;
+  padding-left: 16%;
+  padding-top: 10%;
+}
+.discover_fresh{
+  font-size: 45px;
+  width: 700px;
+  padding-left: 16%;
+}
+.discover_btn{
+  border: 1px solid white;
+  border-radius: 20px;
+  border-color: white;
+  color: white ;
+  background-color: #83b1f5;
+  width: 150px;
+  height: 50px;
+  margin-left: 16%;
+  margin-bottom: 8%;
+  transition: background-color 0.4s ease;
+}
+.discover_btn:hover{
+  background-color: #198754 !important;
+  font-weight: 500;
+}
+.org_egg{
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-right: 80%;
+}
+.home_eggs{
+  font-size: 45px;
+  width: 700px;
+  text-align: left;
+  padding-left: 3%;
+}
+.discover_btn2{
+  border: 1px solid white;
+  border-radius: 20px;
+  border-color: white;
+  color: white ;
+  background-color:rgb(164, 161, 161);
+  width: 150px;
+  height: 50px;
+  margin-right: 81%;
+  margin-bottom: 8%;
+  transition: background-color 0.4s ease;
+}
+.discover_btn2:hover{
+  background-color: #198754 !important;
+  font-weight: 500;
+}
+
+.natural_ingr{
+  font-size: 20px;
+  padding-bottom: 1%;
+  padding-top: 10%;
+  text-align: left;
+}
+.refresh_drink{
+  font-size: 45px;
+  width: 700px;
+  text-align: left;
+  width: 600px;
+}
+.discover_btn3{
+  border: 1px solid white;
+  border-radius: 20px;
+  border-color: white;
+  color: white ;
+  background-color:orange;
+  width: 150px;
+  height: 50px;
+  margin-right: 87%;
+  margin-bottom: 8%;
+  transition: background-color 0.4s ease;
+}
+.discover_btn3:hover{
+  background-color: #198754 !important;
+  font-weight: 500;
+}
